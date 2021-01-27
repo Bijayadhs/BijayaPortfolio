@@ -8,9 +8,9 @@
 :root{
     --primary-color-dark : #df238a;
     --primary-color-light: #cf80df;
-    --primary-color-orange: #e6c682;
-    --secondary-color-orange : #c45f31;
-    --background-color: rgb(67 60 55);
+    --primary-color-orange: #6ba310;
+    --secondary-color-orange : #c9673a;
+    --background-color: #252220;
 }
 body{
 	background-size: cover;
@@ -31,7 +31,7 @@ section{
 	padding:.5rem 4rem;
 	width: 100%;
 	min-width: 1040px;
-	margin:0 auto;
+	margin:20px auto;
 }
 h1{
 	font-family: 'Indie Flower', cursive;
@@ -137,6 +137,61 @@ a {
 	text-decoration: none;
 	color:  var(--secondary-color-light);
 }
+
+/* banner about section */
+.banner{
+	display: flex;
+	margin: 80px 0;
+}
+.banner .left{
+	width: 50%;
+	margin-top: 40px;
+}
+h3.greeting{
+	color: var(--secondary-color-orange);
+	font-weight: normal;
+	font-size: 1.2rem;
+	font-family: "Indie Flower",cursive;
+	margin-bottom: -8px;
+
+}
+h4.name{
+font-size: 1.6rem;
+color: #645F75;
+}
+h4.specialize{
+font-weight: 100;
+font-size: 0.8rem;
+margin-top: 8px;
+}
+
+
+/* banner picture and social media */
+.banner .right{
+	margin: 0 60px;
+}
+
+.me{
+	width: 240px;
+	height: 240px;
+	border:1px solid #333;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	background:url('img/bj.jpg') center/cover;
+}
+.social{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.social a{
+	font-size: 1.6rem;
+}
+.social a:hover{
+	color: var(--secondary-color-orange);
+}
+
 
 
 
